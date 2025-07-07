@@ -5,166 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digi Hub</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <style>
-         * {
-           box-sizing: border-box;
-   }
-        body{
-            background: url(background.png) no-repeat center center fixed;
-            background-size: cover;
-            color: white;
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        header{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-        }
-        header .logo{
-            color: orange;
-            font-size: 30px;   
-            margin-top: 0;         
-        }
-        nav {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-        nav a{
-            text-decoration: none;
-            font-size: 16px;
-            color: white;
-        }
-        header div input[type="text"] {
-            padding: 5px;
-            border-radius: 5px;
-            border: none;
-      }
-        header div button{
-            background-color: orange;
-            color: white;
-            border: none;
-            padding: 6px 12px;
-            margin-left: 5px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        main{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 40px 20px;
-            gap: 30px;
-        }
-        .description{
-            max-width: 400px;
-        }
-        .description h2 {
-            font-size: 2rem;
-        }
-        .description span{
-            color: orange;
-            display: block;
-        }
-        .description button{
-            background-color: rgb(255, 165, 0);
-            color: white;
-            padding: 10px 15px;
-            border-radius: 10px;
-            border: none;
-            margin-top: 10px;
-            cursor: pointer;
-        }
-        .description p{
-            line-height: 1.6;
-            font-size: 1rem;
-        }
-        .form{
-            background-color: rgb(34, 34, 34, 0.9);
-            color: white;
-            padding: 20px;
-            border-radius: 8px;
-            max-width: 300px;
-        }
-        .form h2{
-            margin-bottom: 10px;
-        }
-        .login{
-            padding: 15px;
-        }
-        .login input{
-            background: transparent;
-            width: 100%;
-            color: white;
-            border: none;
-            border-bottom: 2px solid;
-            padding-top: 10px;
-            margin: 10px 0;
-            padding: 10px;
-            color: white;
-        }
-        .login button {
-            width: 100%;
-            padding: 10px;
-            background-color: orange;
-            border: none;
-            border-radius: 5px;
-            margin-top: 10px;
-            cursor: pointer;
-        }
-        .form p {
-            font-size: 14px;
-        }
-
-        .form a {
-            color: orange;
-            text-decoration: none;
-       }
-
-        .contact-us i {
-            font-size: 24px;
-            margin-right: 10px;
-            cursor: pointer;
-      }
-      .contact-us {
-            text-align: center;
-      }
-    /* 📱 Responsive Design 📱 */
-
-       @media (max-width: 768px) {
-            header {
-              flex-direction: column;
-              align-items: flex-start;
-              gap: 10px;
-     }
-
-            nav {
-              flex-direction: column;
-              gap: 10px;
-        }
-
-            main {
-             flex-direction: column;
-             align-items: center;
-    }
-
-           .description,
-          .form {
-             max-width: 100%;
-   }
-
-         .description h2 {
-             font-size: 1.5rem;
-   }
-
-         .form {
-              width: 100%;
-  }
-}
-    </style>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -201,10 +42,10 @@
             <hr>
             <div class="contact-us">
                 <p>Log in with</p>
-                <i class='bx bxl-facebook-circle' style='color:#2207f5'  ></i>
-                <i class='bx bxl-instagram' style='color:rgba(243,7,199,0.78)'  ></i>
-                <i class='bx bxl-twitter' style='color:rgba(34,7,243,0.78)'  ></i>
-                <i class='bx bxl-tiktok' style='color:rgba(17,17,16,0.98)'  ></i>
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-tiktok'></i>
             </div>
         </section>
     </main>
